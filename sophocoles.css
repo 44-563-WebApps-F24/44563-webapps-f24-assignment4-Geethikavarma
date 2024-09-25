@@ -1,22 +1,4 @@
-ul.navbar-horizontal {
-    /* remove these */
-    list-style-type: style type;;
-    margin: 50px;
-    padding:30px;
-    }
-    ul.navbar-horizontal li {
-    float:left; /* line up horizontally */
-    color:#c0c0c0;
-    background-color:rgb(18, 5, 18)
-    }
-    ul.navbar-horizontal a {
-    display:block;
-    padding:8px
-    /* on hover change the link color*/
-    ul.navbar-horizontal a:hover {
-    background-color: #555;
-    color:white;
-    }
+
     
 .speech{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
