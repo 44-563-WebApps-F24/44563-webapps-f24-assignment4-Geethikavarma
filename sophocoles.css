@@ -19,6 +19,12 @@
     font-size: 14;
     color:black
 }
+.name:hover{
+   text-shadow: 3px 3px 6px rgba(0, 20, 18, 0.518);
+   border: 3px solid burlywood;
+   padding: 2px;
+   width: max-content;
+}
 .ANT{
     color:darkred;
 }
