@@ -1,13 +1,13 @@
 ul.navbar-horizontal {
     /* remove these */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style-type: style type;;
+    margin: 50px;
+    padding:30px;
     }
     ul.navbar-horizontal li {
     float:left; /* line up horizontally */
-    color:#000;
-    background-color:purple
+    color:#c0c0c0;
+    background-color:rgb(18, 5, 18)
     }
     ul.navbar-horizontal a {
     display:block;
