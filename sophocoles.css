@@ -1,3 +1,44 @@
+
+.navbar {
+    background-color: #333;
+    overflow: hidden; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    padding: 10px 0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.navbar a {
+    float: left; 
+    display: block; 
+    color: #f2f2f2; 
+    text-align: center;
+    padding: 14px 20px; 
+    text-decoration: none; 
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s; 
+}
+.navbar a:hover {
+    background-color: #575757; 
+    color: white; 
+}
+.navbar a.active {
+    background-color: #04AA6D; 
+    color: white; 
+    border-radius: 4px;
+}
+body {
+    margin-top: 60px; 
+}
+@media screen and (max-width: 600px) {
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: left; 
+        padding: 14px;
+    }
+}
 .speech{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 10;
@@ -57,55 +98,4 @@ td{
     color:black;
     text-align: center;
     padding: 6px;
-}
-/* Navigation Bar Styles */
-.navbar {
-    background-color: #333; /* Dark background for navbar */
-    overflow: hidden; /* Ensure content doesn't overflow */
-    position: fixed; /* Fix it at the top */
-    top: 0;
-    width: 100%; /* Full width */
-    z-index: 1000; /* Ensure it's on top of other elements */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    padding: 10px 0; /* Padding for height */
-}
-
-/* Style for links in the navbar */
-.navbar a {
-    float: left; /* Align links horizontally */
-    display: block; /* Make the links block-level */
-    color: #f2f2f2; /* Light text color */
-    text-align: center; /* Center align text */
-    padding: 14px 20px; /* Padding inside the links */
-    text-decoration: none; /* Remove underline */
-    font-size: 18px; /* Slightly larger text */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
-}
-
-/* Style for the hover effect on links */
-.navbar a:hover {
-    background-color: #575757; /* Dark gray background on hover */
-    color: white; /* White text on hover */
-}
-
-/* Style for the active link (current page) */
-.navbar a.active {
-    background-color: #04AA6D; /* Green background for active link */
-    color: white; /* White text for active link */
-    border-radius: 4px; /* Slight rounding on active link */
-}
-
-/* Add margin-top to avoid overlap with fixed navbar */
-body {
-    margin-top: 60px; /* Adjust depending on the height of your navbar */
-}
-
-/* Responsive navbar - stack links vertically on small screens */
-@media screen and (max-width: 600px) {
-    .navbar a {
-        float: none;
-        display: block;
-        text-align: left; /* Left align text for mobile view */
-        padding: 14px; /* Increase padding for larger clickable area */
-    }
 }
