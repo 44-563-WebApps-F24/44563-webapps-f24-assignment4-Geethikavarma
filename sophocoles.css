@@ -31,3 +31,24 @@
 .THE{
     color: darkslateblue;
 }
+
+table{
+    border: 2px solid;
+    border-collapse: collapse;
+    box-sizing: content-box;
+    text-align: initial;
+    border-spacing: 3px;
+    border-color: darkgoldenrod;
+}
+th{
+    background-color: lightpink;
+    color: black;
+    padding: 6px;
+    text-align: center;
+}
+td{
+    border: 2px solid deepskyblue;
+    color:black;
+    text-align: center;
+    padding: 6px;
+}
